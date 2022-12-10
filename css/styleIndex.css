@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;800&family=Poppins:wght@500;900&family=Questrial&family=Rubik+Vinyl&family=Texturina:opsz,wght@12..72,100;12..72,500;12..72,700;12..72,900&display=swap");
+
+.size {
+  font-size: 7em;
+  font-weight: 700;
+  font-family: "Texturina", serif;
+}
+.cover {
+  color: rgb(127, 255, 133);
+}
+.about {
+  height: 1000px;
+}
+/* Copied Typing Animation Starts*/
+.msg {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap;
+  margin: 300px 20px; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: typing 4s steps(40, end) 1s 5;
+}
+
+/* The typing effect */
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+}
+/* Copied Typing Animation Ends*/
+@media (max-width: 1200px) {
+  .size {
+    font-size: 4em;
+  }
+  .msg {
+    font-size: large;
+  }
+}
+@media (max-width: 400px) {
+  .size {
+    font-size: 2em;
+  }
+  .msg {
+    font-size: xx-small;
+  }
+}
+@media (max-width: 150px) {
+  .msg {
+    font-size: 0.4em;
+  }
+}
+.nav-link {
+  transition: 1s ease-in;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+  animation: drawLine 1s ease-in-out 0s infinite;
+}
+@keyframes drawLine {
+  100% {
+    border-bottom: 1px solid rgb(127, 255, 133);
+  }
+}
+
+.about img {
+  border-radius: 100%;
+}
+.about p {
+  animation: fadeIn 2s ease-out;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
