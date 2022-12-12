@@ -88,6 +88,9 @@
   .card-title {
     font-size: x-small;
   }
+  footer {
+    font-size: x-small;
+  }
 }
 @media (max-width: 300px) {
   .msg {
