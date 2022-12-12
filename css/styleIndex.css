@@ -50,9 +50,7 @@
   .about p {
     font-size: small;
   }
-  .about img {
-    width: 50%;
-  }
+
   .experience,
   .education {
     font-size: small;
@@ -98,9 +96,7 @@
   .about p {
     font-size: xx-small;
   }
-  .about img {
-    width: 50%;
-  }
+
   .experience,
   .education {
     font-size: x-small;
