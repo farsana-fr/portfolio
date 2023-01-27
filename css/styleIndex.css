@@ -11,8 +11,20 @@
 .cover {
   color: rgb(127, 255, 133);
 }
-
-/* Copied Typing Animation Starts*/
+.year
+{
+  font-size: xx-large;
+}
+.course
+{
+  font-size: medium;
+}
+.contact
+{
+  width: 100%;
+}
+/* Taken below from https://css-tricks.com/snippets/css/typewriter-effect/*/
+/* Typing Animation Starts*/
 .msg {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap;
@@ -27,7 +39,7 @@
     width: 0;
   }
 }
-/* Copied Typing Animation Ends*/
+/* Typing Animation Ends*/
 @media (max-width: 1200px) {
   .size {
     font-size: 4em;
@@ -35,14 +47,18 @@
   .msg {
     font-size: large;
   }
-}
-.education .year,
-.education .course {
-  font-size: medium;
+  /* .education .year,
+  .education .course {
+    font-size: medium;
+  } */
+  .experience,.education {
+    font-size: small;
+    width: 80%;
+  }
 }
 @media(max-width:1000px){
   .experience,.education {
-    /* font-size: small; */
+    font-size: small;
     width: 80%;
   }
 }
@@ -53,26 +69,29 @@
   .msg {
     font-size: xx-small;
   }
-  .about p {
+  /* .about p {
     font-size: small;
-  }
-
-  .experience,
-  .education {
+  } */
+  .experience,.education {
     font-size: small;
     width: 80%;
   }
-  .education .year,
+
+  /* .experience,
+  .education {
+    font-size: small;
+  } */
+  /* .education .year,
   .education .course {
     font-size: small;
-  }
-  .list-group {
+  } */
+  /* .list-group {
     width: 50%;
-  }
-  #projects {
+  } */
+  /* #projects {
     width: 100%;
     font-size: x-small;
-  }
+  } */
   .accordion-item .accordion-body {
     font-size: x-small;
     padding: 0%;
@@ -108,7 +127,7 @@
 
   /* #experience,
   #education {
-    font-size: x-small;
+    font-size: xx-small;
     width: 100%;
   } */
 }
