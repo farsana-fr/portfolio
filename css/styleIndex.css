@@ -40,6 +40,12 @@
 .education .course {
   font-size: medium;
 }
+@media(max-width:1000px){
+  .experience,.education {
+    /* font-size: small; */
+    width: 80%;
+  }
+}
 @media (max-width: 600px) {
   .size {
     font-size: 2em;
@@ -54,7 +60,7 @@
   .experience,
   .education {
     font-size: small;
-    width: 50%;
+    width: 80%;
   }
   .education .year,
   .education .course {
@@ -63,8 +69,8 @@
   .list-group {
     width: 50%;
   }
-  .projects {
-    width: 20%;
+  #projects {
+    width: 100%;
     font-size: x-small;
   }
   .accordion-item .accordion-body {
@@ -100,11 +106,11 @@
     font-size: xx-small;
   }
 
-  .experience,
-  .education {
+  /* #experience,
+  #education {
     font-size: x-small;
-    width: 30%;
-  }
+    width: 100%;
+  } */
 }
 .nav-link {
   transition: 1s ease-in;
