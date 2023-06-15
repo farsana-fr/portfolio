@@ -71,7 +71,8 @@
     font-size: 2em;
   }
   .msg {
-    font-size: xx-small;
+    /* font-size: x-small; */
+    font-size: small;
   }
   /* .about p {
     font-size: small;
@@ -123,7 +124,7 @@
 }
 @media (max-width: 300px) {
   .msg {
-    font-size: 0.4em;
+    font-size: small;
   }
   .about p {
     font-size: xx-small;
